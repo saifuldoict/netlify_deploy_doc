@@ -1,0 +1,21 @@
+client side firebase deploy 
+terminal comand
+firebase login
+firebase init -> 
+are you ready to proceed (Y/n)
+write Y
+selectHosting: setup deployments for static web apps
+what do you want to use as your public directory? dis লিখতে হবে এখানে
+setup automatic build and deploy with Github (Y/n) write Y
+firebase use --add
+select your project
+npm run build
+firebase deploy
+
+
+------- re deploy---
+npm run build
+firebase deploy
+
+
+vercel এ যদি server side deploy করা থাকে তবে settings -> site domain এখানে firebase  এ deploy করার পরে যে url টা পাওয়া যাবে সেটা এখানে বসাতে হবে। এরপর redeploy করতে হবে।
