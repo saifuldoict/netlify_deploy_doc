@@ -62,5 +62,5 @@ vercel --prod
 
 
 <img src="https://i.ibb.co.com/dgH40d3/Screenshot-3.jpg"/>
-
+## Vercel cannot assce automatically env file. so add manually env file.   Select your project ->Setting (see in menubar) -> Enverionment Variables -> Import.env -> save. now deployment is full complete to use.
 # Server Deployment on Vercel  Done
